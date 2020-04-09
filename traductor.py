@@ -1,7 +1,6 @@
 """
 Traducto de palabras realizado con Python
 """
-
 # Importamos la libreria request
 import requests
 
