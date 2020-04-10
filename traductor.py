@@ -1,7 +1,4 @@
-"""
-Traducto de palabras realizado con Python
-"""
-
+# -*- coding: utf-8 -*-
 # Importamos la libreria request
 import requests
 
@@ -17,7 +14,7 @@ def Traduccion(source, target, text):
 		return "Ocurrió un error"
 
 while True:
-	text = input("Ingrese un texto para traducir: ")
+	text = str(raw_input('Ingrese un texto para traducir: '))
 	if text == "SALIR_CONSOLE":
 		break
 	else:
